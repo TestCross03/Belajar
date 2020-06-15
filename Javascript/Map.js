@@ -7,7 +7,7 @@ const doubledNumbers = numbers.map((number) =>{
 });
 
 // Print constant doubledNumbers
-console.log(doubledNumber);
+console.log(doubledNumbers);
 
 
 const names = [
@@ -20,7 +20,7 @@ const names = [
 // Buatlah array baru didalam constant names dengan menggunakan method map,
 // dan tetapkan sebagai constant fullNames
 const fullNames = names.map((name) =>{
-  return firstName +""+lastName;
+  return name.firstName +""+name.lastName;
 });
 // Print constant fullNames
 console.log(fullNames);
